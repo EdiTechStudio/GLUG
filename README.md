@@ -37,6 +37,6 @@ After finding the correct number type it and press Enter.
 ## Final Step:
 Now you have done everything, you need to keep a little bit of more patience, and you need to type this command:
 
- `sudo update-initramfs -u`
+`sudo update-initramfs -u`
 
 DONE!!! You can now reboot your PC and see the magic yourself!!
