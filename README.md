@@ -25,7 +25,9 @@ apt install git
 ## Step 3:
 Go to plymouth theme folder first.
 
-```cd /usr/share/plymouth/themes```
+```
+cd /usr/share/plymouth/themes
+```
 
 Now you are in plymouth theme directory. Now type 
 
