@@ -4,5 +4,5 @@ Description= This wallpaper is made by Pritam from Section D NIT Durgapur Roll N
 ModuleName=script
 
 [script]
-ImageDir=/lib/plymouth/themes/glug
-ScriptFile=/lib/plymouth/themes/glug/glug.script
+ImageDir=/usr/share/plymouth/themes/GLUG
+ScriptFile=/usr/share/plymouth/themes/GLUG/glug.script
