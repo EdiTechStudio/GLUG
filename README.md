@@ -38,16 +38,11 @@ now type `ls` and you should find README.md glug.script glug.png and glug.plymou
 Now as you have verified everything, let's install this beautiful boot screen.
 
 ```
-update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/GLUG/glug.plymouth 1
-```
-
-As we have set the priority to 1, definitely this will be the one that will be running in the boot screen. But if you do not prefer to add 1 as priority order, you can always use this command 
-
-```
 update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/GLUG/glug.plymouth 200
 ```
 
-or you may use any priority order number. But in this case you will be needed to write one more command and that will be:
+## But there is a little bit problem. The thing is that your other themes (pre installed) might have a higher priority number (200 in our case) and also I have personally tried but cannot put 1 as the priority number. So I would suggest you not to take any risk. Because if your system theme has a higher priority order (lower numbers like 100) then this theme will be totally ignored.
+So type this command:
 
 `update-alternatives --config default.plymouth`
 
