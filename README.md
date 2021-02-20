@@ -12,11 +12,15 @@ Enter the user password and you will be having root power!
 ## Step 2:
 Install plymouth-themes
 
-```apt install plymouth-themes```
+```
+apt install plymouth-themes
+```
 
 and then install git
 
-```apt install git```
+```
+apt install git
+```
 
 ## Step 3:
 Go to plymouth theme folder first.
@@ -31,7 +35,9 @@ git clone https://github.com/EdiTechStudio/GLUG.git
 
 and then 
 
-```cd GLUG```
+```
+cd GLUG
+```
 
 now type `ls` and you should find README.md glug.script glug.png and glug.plymouth there.
 ## Step 4:
@@ -44,13 +50,17 @@ update-alternatives --install /usr/share/plymouth/themes/default.plymouth defaul
 But there is a little bit problem. The thing is that your other themes (pre installed) might have a higher priority number (200 in our case) and also I have personally tried but cannot put 1 as the priority number. So I would suggest you not to take any risk. Because if your system theme has a higher priority order (lower numbers like 100) then this theme will be totally ignored.
 So type this command:
 
-```update-alternatives --config default.plymouth```
+```
+update-alternatives --config default.plymouth
+```
 
 now look for the selection status and find the correct number for this theme. The numbers start from 0
 After finding the correct number type it and press Enter.
 ## Final Step:
 Now you have done everything, you need to keep a little bit of more patience, and you need to type this command:
 
-```sudo update-initramfs -u```
+```
+update-initramfs -u
+```
 
 DONE!!! You can now reboot your PC and see the magic yourself!!
