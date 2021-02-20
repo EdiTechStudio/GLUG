@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=GLUG
+Description= This wallpaper is made by Pritam from Section D NIT Durgapur Roll No. 20D80046
+ModuleName=script
+
+    [script]
+ImageDir=/lib/plymouth/themes/GLUG
+ScriptFile=/lib/plymouth/themes/GLUG/glug.script
