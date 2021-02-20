@@ -25,7 +25,9 @@ Go to plymouth theme folder first.
 
 Now you are in plymouth theme directory. Now type 
 
-`git clone https://github.com/EdiTechStudio/GLUG.git`
+```
+git clone https://github.com/EdiTechStudio/GLUG.git
+```
 
 and then 
 
