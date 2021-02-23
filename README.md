@@ -31,7 +31,7 @@ Go to the extracted folder and run the command
 ```
 sudo dpkg -i glug-theme_1.3_all.deb
 ```
-## warnin: Make sure you do it from command line because this package requires you to select theme priority.
+## warning: Make sure you do it from command line because this package requires you to select theme priority.
 ## Final Step:
 
 Simply reboot.
