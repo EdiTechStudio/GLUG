@@ -10,8 +10,11 @@ Go root, we don't have much time to write `sudo` as we are using virtual box.
 open terminal by using Ctl+Alt+T then type `sudo su`
 Enter the user password and you will be having root power!
 ## Step 2:
-Install plymouth-themes
+Install plymouth and plymouth-themes as they are the dependencies for this package.
 
+```
+apt install plymouth
+```
 ```
 apt install plymouth-themes
 ```
@@ -29,7 +32,7 @@ tar xvf filename.tar.gz
 ## Step 4:
 Go to the extracted folder and run the command
 ```
-sudo dpkg -i glug-theme_1.3_all.deb
+dpkg -i glug-theme_1.3_all.deb
 ```
 ## warning ⚠️⚠️: Make sure you do it from command line because this package requires you to select theme priority.
 ## Final Step:
