@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=plymouth_glug_theme
+Description= Made by Pritam, Section-D rollno. 20D80046 NIT DGP
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/glug-theme
+ScriptFile=/usr/share/plymouth/themes/glug-theme/glug-animation.script
